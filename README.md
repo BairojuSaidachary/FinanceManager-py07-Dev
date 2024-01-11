@@ -30,30 +30,37 @@ The program allows users to manage their personal finances by setting budgets, a
 
 ## How to Use
 
-1. **Run the Application:**
+1. **Install Required Packages:**
+   - Make sure you have Python installed on your system. You can download it from [python.org](https://www.python.org/).
+   - Install the required packages using the following commands in your terminal or command prompt:
+   
+2. **Run the Application:**
    - Execute the script.
    - Tkinter window opens with buttons for various financial management actions.
-
-2. **Login or Register:**
+   - ```bash
+      pip install tk tkcalendar pandas
+      python personal_finance_manager.py
+     ```
+3. **Login or Register:**
    - Click on "Login" or "Register" to create an account or log in with existing credentials.
 
-3. **Set Budget:**
+4. **Set Budget:**
    - Click "Set Budget" to set the budget for financial management.
 
-4. **View and Increase Budget:**
+5. **View and Increase Budget:**
    - After setting the budget, click "View Budget" to see the current budget.
    - You can also increase the budget by clicking "Increase Budget."
 
-5. **Add Expenses:**
+6. **Add Expenses:**
    - Click "Add Expenses" to add your daily expenses, specifying category, amount, and date.
 
-6. **Generate Financial Report:**
+7. **Generate Financial Report:**
    - Click "Generate Financial Report" to view a report of expenses based on selected years.
 
-7. **Delete Account:**
+8. **Delete Account:**
    - Click "Delete Account" to delete your account permanently.
 
-8. **Log Out:**
+9. **Log Out:**
    - Log out using the exit button or closing the application.
 
 ## Prerequisites
